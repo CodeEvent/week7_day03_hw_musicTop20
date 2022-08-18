@@ -6,10 +6,10 @@ const Song = ({title, artist, position}) => {
     return (
         <div>
         
-        <p><>Position: </>{position}</p>
+        <h3>Position: {position}</h3>
         <hr></hr>
-        <p><>Title: </>{title}</p>
-        <p><>Artist: </>{artist}</p>
+        <h4>Title: {title}</h4>
+        <h4>Artist: {artist}</h4>
         <hr></hr>
         </div>    
     ) 
