@@ -6,7 +6,6 @@ const MusicInfo = () => {
       return (
         <Song
           key={song.id.attributes["im:id"]}
-          position={index + 1}
           title={song['im:name'].label}
           artist={song['im:artist'].label}
         />
