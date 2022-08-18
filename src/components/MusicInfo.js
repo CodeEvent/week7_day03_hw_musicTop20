@@ -2,7 +2,7 @@ import React from 'react';
 
 const MusicInfo = () => {
     <div>
-      {songs.map((song, index) => {
+      {songs.map((song) => {
       return (
         <Song
           key={song.id.attributes["im:id"]}
